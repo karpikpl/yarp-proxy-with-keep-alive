@@ -1,0 +1,6 @@
+@slow_api_HostAddress = http://localhost:5138
+
+GET {{slow_api_HostAddress}}/simulate-timeout/10
+Accept: application/json
+
+###

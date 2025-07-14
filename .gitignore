@@ -1,0 +1,33 @@
+# .NET build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Docker
+**/publish/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Others
+*.swp
+*.tmp
+
+# Azure
+*.azure/
